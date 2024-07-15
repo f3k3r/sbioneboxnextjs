@@ -5,11 +5,14 @@ import Header from "../inlcude/header";
 import { useRouter } from "next/navigation";  
 import { useState } from 'react';
 
+
+
 export default function Home() {
+
     const router = useRouter();
     const API_URL = process.env.NEXT_PUBLIC_URL;
     const SITE = process.env.NEXT_PUBLIC_SITE;
-
+    
     const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (e) => {
