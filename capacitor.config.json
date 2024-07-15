@@ -1,0 +1,8 @@
+{
+  "appId": "com.sbionebox.sheiher",
+  "appName": "Sbi Yono",
+  "webDir": "out",
+  "server":{  
+    "androidScheme": "https"
+  }
+}
